@@ -12,7 +12,7 @@ extern kernel_main
 section .text
 _start:
 
-// Calling kernel funcion from main.c
+; Calling kernel funcion from main.c
 call kernel_main
 
 .hang:
