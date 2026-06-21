@@ -6,7 +6,7 @@ void writechar32() {
 	char *p_vga_memmory_address = 0xB8000;
 
 	p_vga_memmory_address[0] = 'A';
-	p_vga_memmory_address[0] = 0x0F42;
+	p_vga_memmory_address[1] = 0x0F42;
 
 }
 
