@@ -1,0 +1,3 @@
+x86_64-elf-gcc -ffreestanding -c main.c -o main.o
+nasm -f elf64 boot.S -o boot.o
+x86_64-elf-gcc -T linker.ld -nostdlib -o kernel.elf boot.o main.o
