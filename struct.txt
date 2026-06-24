@@ -1,0 +1,12 @@
+iso_root/
+├── boot/
+│   ├── limine.cfg
+│   ├── kernel.elf
+│   └── limine/                (Limine stage soubory)
+│       ├── limine-bios.sys
+│       ├── limine-bios-cd.bin
+│       ├── limine-uefi-cd.bin
+│       └── limine-uefi-cd.img
+├── EFI/
+│   └── BOOT/
+│       └── BOOTX64.EFI       (Limine UEFI loader)
